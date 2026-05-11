@@ -114,6 +114,8 @@ on the children, the rest are properties you have used in past challenges
   /* add code below */
 display: flex;
 justify-content: space-evenly;
+align-items: start;
+padding-bottom: 40px;
 
 }
 
@@ -123,6 +125,7 @@ justify-content: space-evenly;
   /* add code below */
   display: flex;
   justify-content: space-evenly;
+  padding-top: 40px;
 }
 
 
@@ -157,7 +160,8 @@ justify-content: space-evenly;
     the elements to get into the right direction.
     */
   display: flex;
-  justify-content: flex-end;
+  flex-direction: column;
+  align-items: stretch;
 }
 
 .c-7-header {
@@ -169,6 +173,8 @@ justify-content: space-evenly;
   */
   display: flex;
   flex: 1;
+  flex-direction: row;
+  align-items: flex-start;
 
 }
 
@@ -182,7 +188,6 @@ justify-content: space-evenly;
    it allows it to take up any empty space
   */
   display: flex;
-  
   flex: 1;
 
 }
@@ -191,6 +196,8 @@ justify-content: space-evenly;
   background-color: coral;
 /*   This property is used on children,
   it allows it to take up any empty space */
+  display: flex;
+  flex: 1;
 
 }
 
@@ -198,13 +205,16 @@ justify-content: space-evenly;
   background-color: lightgreen;
   /*   This property is used on children,
   it allows it to take up any empty space */
-
+  display: flex;
+ flex: 1
 }
 
 .c-7-footer {
   background-color: steelblue;
   /*   This property is used on children,
   it allows it to take up any empty space */
+  display: flex;
+  flex:1;
 
 }
 
